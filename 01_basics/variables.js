@@ -18,5 +18,5 @@ accountCity="Delhi"
 
 console.log(accountId);
 
-//console.table([var1,....,varN]) heps to print data in tabular format
+//console.table([var1,....,varN]) helps to print data in tabular format
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
