@@ -48,3 +48,32 @@ console.table([
   { Variable: "myObj", Value: myObj, Type: typeof myObj },
   { Variable: "myFunction", Value: myFunction, Type: typeof myFunction }
 ]);
+
+
+
+
+// +++++++++++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++
+
+// Stack {primitive} and Heap {non primitive}
+
+// When stack memory is use we get a copy of variable 
+// when heap memry is used we get a refrence of original value
+
+let myYoutubeName = "TanviJivatode"
+let anotherName=myYoutubeName
+anotherName="VibewithTanvi"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne={
+    email:"user.email.com",
+    upi:"user@ybl"
+}                                       
+
+let userTwo=userOne
+
+userTwo.email="Tanvi@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
