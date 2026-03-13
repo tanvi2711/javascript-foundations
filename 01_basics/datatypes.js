@@ -9,7 +9,7 @@ console.log("Tanvi")
 let name="tanvi"
 let age=18
 let isLoggedIn=false
-let state;
+let state;4
 
 // number => 2 to power of 53
 // bigint => for big no
@@ -24,4 +24,5 @@ let state;
 console.log(typeof 18);
 console.log(typeof state);
 console.log(typeof undefined);
+console.log(typeof age);
 console.log(typeof null);//object
